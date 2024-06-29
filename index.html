@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Paint App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Simple Paint<span>   Made By Aditya Raj</span></h1>
+    </header>
+    <div class="container">
+        <canvas id="paintCanvas" width="800" height="600"></canvas>
+        <div class="buttons">
+            <button id="resetButton"><i class="fas fa-trash-alt"></i></button>
+            <button id="undoButton"><i class="fas fa-undo"></i></button>
+            <button id="redoButton"><i class="fas fa-redo"></i></button>
+            <div id="status"></div>
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/e09a12c917.js" crossorigin="anonymous"></script>
+</body>
+</html>
